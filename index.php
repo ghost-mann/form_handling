@@ -1,6 +1,6 @@
-<html>
+<html lang="en">
 <head>
-
+<title>Form Handling</title>
 </head>
 <body>
 <form action="index.php" method="post">
