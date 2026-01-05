@@ -1,13 +1,9 @@
 <html lang="en">
-<head>
-<title>Form Handling</title>
-</head>
+
 <body>
-<form action="index.php" method="post">
-Name: <input type="text" name="name"><br>
-Email: <input type="text" name="email"><br>
-<input type="submit">
-</form>
+
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email is: <?php echo $_POST["email"]; ?><br>
 
 </body>
 </html>
